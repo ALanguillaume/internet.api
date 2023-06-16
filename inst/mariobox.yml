@@ -1,0 +1,11 @@
+metadata:
+  title: mariobox API
+handles:
+  health_get:
+    methods: GET
+    path: /health
+    handler: get_health
+  internet_get:
+    methods: GET
+    path: /internet
+    handler: get_internet
